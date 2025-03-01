@@ -1,0 +1,12 @@
+{
+    "chessSet":{
+        "title":"Chess Set",
+        "description":"Blah Blah Blah",
+        "imagePath":"projectImages/chessSet"
+    },
+    "golfCourse":{
+        "title":"GeoPutt",
+        "description":"This is GeoPutt",
+        "imagePath":"f;lakjfdas;l"
+    }
+}
