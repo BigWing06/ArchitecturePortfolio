@@ -10,10 +10,17 @@
 .projectDiv{
     border: 5px solid red;
     width: 90%;
+    cursor: pointer;
 }
 .innerProjectDiv{
     display:flex;
 }
 .projectImage{
     width: 35%;
+    height: 250px;
+    object-fit: cover;
+}
+.projectDescription{
+    width: 65%;
+    text-align: center;
 }

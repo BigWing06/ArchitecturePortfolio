@@ -1,12 +1,26 @@
 {
     "chessSet":{
-        "title":"Chess Set",
-        "description":"Blah Blah Blah",
-        "imagePath":"projectImages/chessSet"
+        "title":"Archteure Chess Set",
+        "description":"A design for a chess set where all of the pieces represent famouse archtiracural landmarks located throuhgout the world. "
     },
-    "golfCourse":{
-        "title":"GeoPutt",
-        "description":"This is GeoPutt",
-        "imagePath":"f;lakjfdas;l"
+    "pfwbridge":{
+        "title":"PFW Bridge Competition",
+        "description":"Bridge design for particiaption in the 2024 annual PFW bridge competition"
+    },
+    "lakehouse":{
+        "title":"Lake House Design",
+        "description":"Design for a lakehouse located off of lake Wawawsee"
+    },
+    "habitathouse":{
+        "title":"Habitat for Humanity House Design",
+        "description":"Design for a house to be built for a house that would be built for habitat for humanity."
+    },
+    "geoputt":{
+        "title":"GeoPutt - Fort Wayne Mini Golf Course Design",
+        "description":"Design for a Fort Wayne themed golf course."
+    },
+    "squirrelville":{
+        "title":"Squirrelville - Squirrel Feeder Design",
+        "description":"Design for a backyard sqqquirrel feeder. "
     }
 }
