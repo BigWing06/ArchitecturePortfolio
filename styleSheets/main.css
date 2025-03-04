@@ -1,5 +1,5 @@
 :root{
-    --headingColor: #ffffff;
+    --headingColor: #000000;
 }
 body{
     margin:0px;
@@ -12,6 +12,7 @@ body{
     width:100vw;
 }
 h1{
+    text-align: center;
     color:var(--headingColor)
 }
 h2{
@@ -19,4 +20,9 @@ h2{
 }
 h3{
     text-align: center;
+}
+.narbarPlaceholder{
+    margin: 0 auto;
+    display: flex;
+    
 }

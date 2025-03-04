@@ -1,0 +1,14 @@
+.topnav{
+    width:fit-content;
+    overflow:hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.topnav a{
+    float: left;
+    display:block;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 7px 10px;
+}
