@@ -1,9 +1,24 @@
-.titleHeader{
-    background-color:#ab458a;
-    height:500px;
-    width:100%;
-    position:relative;
-}
+.titleHeader {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .titleHeader::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 3000px; /* fixed size = fixed zoom */
+    height: 300px; /* adjust to match image ratio */
+    background-image: url('../headerImage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% center;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
 .titleImage{
     width:40px;
 }
@@ -23,4 +38,10 @@
 .projectDescription{
     width: 65%;
     text-align: center;
+}
+.headerImage{
+    height:inherit;
+    width: 100%;
+    background-size:cover;
+    background-position: bottom;
 }
