@@ -2,7 +2,7 @@ class ProjectDiv{
     constructor(projectKey, data){
         this.title = data.title;
         this.description = data.description;
-        this.imagePath = "projectImages/"+projectKey+"/main.png";
+        this.imagePath = "projectData/"+projectKey+"/main.png";
         this.projectKey = projectKey;
         this.createDisplay();
     }
